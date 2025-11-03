@@ -1,0 +1,97 @@
+.card {
+  justify-content: space-between;
+  padding: 1.5rem;
+  border: 1px solid #444 !important;
+  align-items: center;
+  margin: 15px auto;
+  background-color: #2c2c2c !important;
+  border-radius: 40px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  z-index: -10;
+}
+
+.card:hover {
+  transform: scale(1.005);
+}
+
+.card-body {
+  color: #f4f4f4;
+  background-color: #2c2c2c;
+}
+
+.card-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #c6c3c3;
+  background-color: #2c2c2c;
+}
+
+.card-text,
+.card-thesis-title {
+  color: #f4f4f4;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+#cardProfesor {
+  background-color: #3a3a3a;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 5px;
+  white-space: nowrap;
+  padding: 5px;
+  background-color: #2c2c2c;
+}
+
+.confirm,
+.reject {
+  width: 90px;
+  border: none;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 10px 15px;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  color: #2c2c2c;
+}
+
+.confirm {
+  background-color: #eabc27;
+}
+
+.confirm:hover {
+  background-color: #d4a320;
+  transform: scale(1.05);
+}
+
+.reject {
+  background-color: #666;
+}
+
+.reject:hover {
+  background-color: #b1000c;
+  color: white;
+  transform: scale(1.05);
+}
+
+.download {
+  width: 100px;
+  border: none;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 10px 15px;
+  background-color: #3a3a3a;
+  color: #f4f4f4;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download:hover {
+  background-color: #eabc27;
+  color: #2c2c2c;
+  transform: scale(1.05);
+}

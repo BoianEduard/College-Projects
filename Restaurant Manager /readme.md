@@ -1,0 +1,2 @@
+A simple restaurant order handler app built with C++.
+The app has two use cases - manager, which can add build recipes or stock ingredients, or as a client - who can order different products based on availability.

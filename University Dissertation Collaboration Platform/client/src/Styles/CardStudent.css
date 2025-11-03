@@ -1,0 +1,77 @@
+/* CardStudent.css */
+.card {
+  background-color: #2c2c2c;
+  border-radius: 40px;
+  padding: 30px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 0;
+  flex-grow: 1; /* Face cardurile să umple spațiul disponibil */
+  min-height: 300px; /* Poți ajusta înălțimea minimă */
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Face cardurile să ocupe întreaga înălțime disponibilă */
+}
+.card {
+  min-height: 300px; /* Ajustează în funcție de aspectul dorit */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-text {
+  min-height: 50px; /* Poți ajusta această valoare */
+}
+
+.card-student .card-text {
+  width: 100%;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.005); /* Efect de hover */
+  cursor: pointer;
+}
+
+.card-bodyStudent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #2c2c2c;
+}
+
+.card-name {
+  color: #eae5e5;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.card-text {
+  color: #c6c3c3;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.75rem;
+  background-color: #3a3a3a;
+  border-radius: 10px solid yellow;
+  margin: 0.25rem 0;
+  border: 1px solid #3a3a3a;
+  text-align: center;
+}
+
+.descarca-cererea {
+  background-color: rgb(222, 144, 0);
+  border-radius: 20px;
+  color: #eae5e5;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  height: 50px;
+}
+
+.descarca-cererea:hover {
+  background-color: rgb(180, 117, 0);
+  transition: 1s ease-in-out all;
+}

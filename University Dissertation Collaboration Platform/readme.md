@@ -1,0 +1,1 @@
+University Dissertation Collaboration Platform. A platform where students can request collaborations with professors. Professors can accept multiple students, review their papers, sign them, and send them back. Built with JavaScript using React for the frontend, Node.js for the backend, and MariaDB for the database.

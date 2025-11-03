@@ -1,0 +1,85 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2c2c2c; /* Fundal tematic */
+  color: #f4f4f4; /* Text deschis la culoare */
+}
+
+.loginContainer p {
+  font-size: x-large;
+  background-color: #2c2c2c;
+}
+
+.loginTitle {
+  margin-top: -20px; /* Ridică textul */
+  font-size: 2.5rem; /* Opțional: ajustează dimensiunea textului */
+  color: #f4f4f4; /* Menține culoarea textului */
+}
+
+.googleButton {
+  background-color: #ffffff;
+  color: #2c2c2c;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.googleButton i {
+  font-size: 20px;
+}
+
+.googleButton:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.05);
+}
+
+.googleButton:active {
+  transform: scale(0.98);
+}
+
+.roleSwitch {
+  display: flex;
+  justify-content: center;
+  background-color: #2c2c2c;
+  border-radius: 20px;
+  padding: 5px 15px;
+  width: fit-content;
+  gap: 10px;
+}
+
+.roleOption {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #f4f4f4;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.roleOption.activeOption {
+  background-color: #eabc27; /* Culoare accent */
+  color: #2c2c2c;
+  border-radius: 15px;
+}
+.roleOption.activeOption:hover {
+  color: rgb(34, 30, 30);
+}
+
+.roleOption.inactiveOption {
+  background-color: #716d62; /* Culoare accent */
+  color: #2c2c2c;
+  border-radius: 15px;
+}
+
+.roleOption:hover {
+  color: #eabc27;
+}

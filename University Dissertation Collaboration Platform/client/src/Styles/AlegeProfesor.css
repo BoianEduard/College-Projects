@@ -1,0 +1,146 @@
+.profesorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px; /* Mai mare pentru un aspect aerisit */
+  margin: 30px auto;
+  padding: 40px;
+  border: 1px solid #444;
+  border-radius: 20px; /* Colțuri rotunjite mai elegante */
+  background-color: #2c2c2c; /* Fundal pentru tema dark */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Umbra mai proeminentă */
+}
+
+.profesorContainer:hover {
+  transform: scale(1.02); /* Efect de hover */
+  cursor: pointer;
+}
+
+.profesorGroup {
+  margin-bottom: 30px; /* Spațiere mai mare între grupuri */
+  padding: 20px;
+  width: 100%;
+  background-color: #3a3a3a; /* Contrast subtil */
+  border: 1px solid #555;
+  border-radius: 15px; /* Colțuri rotunjite */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adâncime vizuală */
+}
+
+.profesorGroup label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 15px;
+  background-color: #3a3a3a;
+  color: #f4f4f4;
+  font-size: 18px; /* Dimensiune mai mare pentru lizibilitate */
+  line-height: 1.6; /* Spațiere între linii */
+  text-transform: uppercase; /* Stil uniform */
+}
+
+.profesorGroup select {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px; /* Dimensiune mai mare a textului */
+  border: 1px solid #555;
+  border-radius: 10px;
+  color: #f4f4f4;
+  background-color: #444;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profesorGroup select:focus {
+  border-color: #eabc27; /* Accent de culoare */
+  box-shadow: 0 0 8px rgba(234, 188, 39, 0.8); /* Efect focus */
+  outline: none;
+}
+
+.formButton {
+  background-color: #eabc27; /* Culoare accent pentru buton */
+  color: #2c2c2c; /* Textul butonului */
+  padding: 15px 30px; /* Buton mai mare */
+  border: none;
+  border-radius: 10px; /* Colțuri rotunjite */
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px; /* Text mai mare pentru vizibilitate */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  align-self: center;
+}
+
+.formButton:hover {
+  background-color: #d4a320; /* Efect hover */
+  transform: scale(1.05); /* Efect mărire pe hover */
+}
+
+.formButton:active {
+  transform: scale(0.98); /* Efect apăsare */
+}
+
+.paragrafContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px; /* Lățime maximă pentru un aspect aerisit */
+  margin: 30px auto; /* Centrare pe orizontală */
+  padding: 30px; /* Spațiu interior */
+  border: 1px solid #444; /* Margine pentru a evidenția containerul */
+  border-radius: 15px; /* Colțuri rotunjite mai elegante */
+  background-color: #2c2c2c; /* Fundal pentru tema dark */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Umbra pentru adâncime */
+}
+
+#parafInstiintare {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+.paragrafContainer:hover {
+  transform: scale(1.02); /* Efect de hover */
+  cursor: pointer;
+}
+
+.paragrafContainer p {
+  font-size: 18px; /* Dimensiune text pentru lizibilitate */
+  background-color: #2c2c2c; /* Fundal pentru tema dark */
+  line-height: 1.8; /* Spațiere între linii */
+  color: #d8d7d7; /* Culoare text deschisă */
+  text-align: center; /* Aliniere uniformă pentru un aspect curat */
+  margin: 0; /* Eliminare margini implicite */
+}
+
+.pendingIcon {
+  display: inline-flex;
+  margin-left: 10px;
+  font-size: 20px; /* Dimensiune mai mare */
+  font-weight: bold;
+  color: #bdbab0; /* Culoare crem spre galben */
+  background-color: #2c2c2c; /* Fundal pentru tema dark */
+  border-radius: 50%; /* Rotunjit subtil */
+  padding: 5px;
+  transition: color 0.3s ease, transform 0.3s ease; /* Animare */
+  align-self: center;
+  justify-content: center;
+}
+
+.pendingIcon:hover {
+  color: #dad7d7; /* Alb pe hover */
+  transform: scale(1.1); /* Efect ușor de mărire pe hover */
+}
+
+.pendingIcon i {
+  background-color: #2c2c2c; /* Fundal pentru tema dark */
+  margin-right: 8px; /* Spațiu între iconiță și text */
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px; /* Mai mare pentru un aspect aerisit */
+  margin: 30px auto;
+  padding: 40px;
+  border: 1px solid #444;
+  border-radius: 20px; /* Colțuri rotunjite mai elegante */
+  background-color: #2c2c2c; /* Fundal pentru tema dark */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Umbra mai proeminentă */
+}
